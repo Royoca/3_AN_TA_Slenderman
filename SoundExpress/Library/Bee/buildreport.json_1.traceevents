@@ -1,0 +1,591 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1670853930281516, "dur": 1100945, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853930281558, "dur": 26997, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853930308557, "dur": 32235, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853930340885, "dur": 221525, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853930562413, "dur": 807140, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853931369556, "dur": 12905, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853931383052, "dur": 13, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1670853930438987, "dur": 98779, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670853930439862, "dur": 41050, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670853930524083, "dur": 4078, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670853930528165, "dur": 9595, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670853930528843, "dur": 8114, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670853930541819, "dur": 1347, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1670853930541111, "dur": 2083, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853931383137, "dur": 183, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1670853930599456, "dur":1177, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853930600640, "dur":64, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1670853930600713, "dur":22, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1670853930600735, "dur":501, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1670853930601273, "dur":674, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853930601947, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360345, "dur":362, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360708, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360724, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360725, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360741, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360744, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360755, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360757, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360765, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360767, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360771, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360773, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360777, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360779, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360783, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360785, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360789, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360791, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360794, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360796, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360800, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360802, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360806, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360807, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360812, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360813, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360817, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360819, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360822, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360824, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360828, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360829, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360834, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360843, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931360863, "dur":1947, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1670853930601239, "dur":714, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930601955, "dur":5005, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930606974, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670853930606979, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930607078, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670853930607082, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930607841, "dur":2502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1670853930610347, "dur":91, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1670853930610440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930610626, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1670853930612161, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930612233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930612303, "dur":100760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930713125, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930713184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930713193, "dur":80525, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930793777, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930793831, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930793839, "dur":114047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930907928, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930907979, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930907985, "dur":37434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930945462, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930945509, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930945519, "dur":35263, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930980824, "dur":1588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930982417, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930982427, "dur":1079, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930983549, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853930983595, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853930983601, "dur":84243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853931067884, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853931067932, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1670853931067938, "dur":173718, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1670853931241696, "dur":118648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930601292, "dur":665, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930601958, "dur":5020, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930606979, "dur":313, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670853930607298, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930642686, "dur":45348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1670853930688093, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930688163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930688267, "dur":102643, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930790959, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930791010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930791016, "dur":52398, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930843454, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930843500, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930843528, "dur":54097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930897671, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930897717, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930897726, "dur":81722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930979493, "dur":5649, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930985146, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930985154, "dur":1380, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930986575, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853930986622, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1670853930986628, "dur":284306, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1670853931270969, "dur":89385, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930601320, "dur":642, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930601963, "dur":5002, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930606975, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670853930607301, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930609424, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1670853930611194, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1670853930611268, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930611272, "dur":1977, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":3, "ts":1670853930613304, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930613392, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930613412, "dur":174440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930787918, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930787990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930787999, "dur":45382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930833438, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930833494, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930833524, "dur":36308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930869874, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930869918, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930869923, "dur":47321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930917290, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930917341, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930917345, "dur":36435, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930953868, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853930953952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853930953961, "dur":108910, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853931062916, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853931062968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1670853931062974, "dur":191652, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":3, "ts":1670853931254672, "dur":105693, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930601353, "dur":613, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930601966, "dur":4995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930606974, "dur":257, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1670853930607233, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930621368, "dur":61693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1670853930683113, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930683171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930687967, "dur":28921, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930716941, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930716998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930717008, "dur":75408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930792462, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930792512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930792517, "dur":52413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930844973, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930845020, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930845026, "dur":57735, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930902809, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930902853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853930902863, "dur":62849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853930965759, "dur":81085, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853931046849, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853931046859, "dur":1378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853931048280, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853931048326, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853931048333, "dur":43843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853931092223, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853931092271, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1670853931092279, "dur":111040, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":4, "ts":1670853931203363, "dur":156999, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930601381, "dur":590, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930601972, "dur":4995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930606976, "dur":286, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1670853930607265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930614045, "dur":69029, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1670853930683118, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930683171, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930688052, "dur":107727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930795878, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930795961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930795970, "dur":61787, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930857806, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930857859, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930857867, "dur":49754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930907680, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930907734, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853930907744, "dur":49788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853930957577, "dur":205058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853931162640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853931162648, "dur":1289, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":5, "ts":1670853931163983, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1670853931164030, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853931164037, "dur":1355, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":5, "ts":1670853931165445, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1670853931165487, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1670853931165491, "dur":75107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1670853931240644, "dur":119711, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930601409, "dur":568, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930601977, "dur":4995, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930606976, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1670853930607093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930616077, "dur":67148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1670853930683271, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930683322, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930688014, "dur":107822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930795891, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930796036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930796042, "dur":37562, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930833646, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930833700, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930833705, "dur":48536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930882288, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930882342, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930882352, "dur":53061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930935474, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853930935524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853930935534, "dur":140285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853931075864, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853931075911, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1670853931075920, "dur":127105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":6, "ts":1670853931203077, "dur":157262, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930601440, "dur":541, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930601981, "dur":4994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930606977, "dur":316, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1670853930607297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930609382, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":7, "ts":1670853930611885, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930611957, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930612141, "dur":68855, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930681063, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930681148, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930688004, "dur":107936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930796137, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930796195, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930796200, "dur":46098, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930842345, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930842404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930842415, "dur":33613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930876076, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930876137, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930876147, "dur":34835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930911047, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930911101, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930911109, "dur":34304, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930945461, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930945512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930945519, "dur":44666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930990232, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853930990293, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853930990343, "dur":76173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853931066567, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853931066645, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931066653, "dur":52168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853931118868, "dur":52243, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853931171119, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931171132, "dur":1218, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1670853931172392, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670853931172440, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931172448, "dur":2037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670853931174529, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1670853931174576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931174584, "dur":4942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":7, "ts":1670853931179577, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1670853931179625, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931179635, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1670853931180969, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670853931181038, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931181046, "dur":1106, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":7, "ts":1670853931182193, "dur":143, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1670853931182339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931182346, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1670853931183777, "dur":1282, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1670853931185064, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931185073, "dur":1316, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":7, "ts":1670853931186433, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1670853931186483, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931186492, "dur":2360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1670853931188891, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1670853931188945, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1670853931188951, "dur":43644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level2" }}
+,{ "pid":12345, "tid":7, "ts":1670853931232643, "dur":127709, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930601460, "dur":524, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930601984, "dur":4978, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930606974, "dur":290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1670853930607266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930621413, "dur":61795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":8, "ts":1670853930683278, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930683336, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930688006, "dur":100318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930788384, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930788428, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930788432, "dur":45123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930833606, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930833659, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930833664, "dur":37159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930870863, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930870909, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853930870914, "dur":99756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853930970708, "dur":71737, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853931042448, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931042455, "dur":2570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853931045070, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853931045152, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931045162, "dur":106544, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":8, "ts":1670853931151752, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1670853931151884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931152272, "dur":825, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":8, "ts":1670853931153144, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1670853931153199, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931153255, "dur":1417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":8, "ts":1670853931154709, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1670853931154755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931154761, "dur":6756, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1670853931161569, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931161614, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931161622, "dur":3378, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931165048, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1670853931165092, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931165099, "dur":21823, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1670853931186964, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670853931187011, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931187016, "dur":1618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/resources.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670853931188684, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931188731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931188762, "dur":2143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level2.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931190958, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931191078, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931191087, "dur":1563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level1.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931192694, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931192739, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931192744, "dur":1091, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level0.resS" }}
+,{ "pid":12345, "tid":8, "ts":1670853931193885, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1670853931193934, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931193943, "dur":946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level0" }}
+,{ "pid":12345, "tid":8, "ts":1670853931194935, "dur":49, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670853931194987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931194993, "dur":1178, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":8, "ts":1670853931196216, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1670853931196270, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931196279, "dur":1536, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1670853931197867, "dur":141, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1670853931198012, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1670853931198024, "dur":919, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1670853931198989, "dur":161368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930601484, "dur":503, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930601987, "dur":4976, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930606973, "dur":332, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1670853930607309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930614611, "dur":67117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1670853930681775, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930681835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930688262, "dur":107555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930795872, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930795918, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930795922, "dur":55471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930851453, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930851507, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930851515, "dur":60683, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930912239, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930912292, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853930912297, "dur":34848, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853930947191, "dur":85591, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853931032788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853931032800, "dur":1292, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853931034128, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853931034168, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853931034172, "dur":79198, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853931113410, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853931113459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1670853931113464, "dur":246805, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":9, "ts":1670853931360304, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":9, "ts":1670853931360306, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853930601519, "dur":471, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853930601990, "dur":4974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853930606974, "dur":154, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1670853930607131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853930616392, "dur":66760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1670853930683199, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853930683264, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853930688127, "dur":103958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853930792191, "dur":154919, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853930947113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853930947121, "dur":1364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853930948539, "dur":104176, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853931052722, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853931052735, "dur":2786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853931055566, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853931055616, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1670853931055625, "dur":194754, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1670853931250426, "dur":109921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930601548, "dur":445, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930601993, "dur":4994, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930606988, "dur":147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1670853930607137, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930615391, "dur":68055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1670853930683479, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930683519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930688230, "dur":104141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930792420, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930792469, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930792473, "dur":42069, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930834580, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930834629, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930834634, "dur":34860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930869540, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930869597, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930869627, "dur":42204, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930911877, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930911928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853930911934, "dur":43942, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853930955925, "dur":103810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853931059743, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853931059755, "dur":1964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853931061761, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853931061824, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1670853931061832, "dur":235937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":11, "ts":1670853931297803, "dur":62560, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930601576, "dur":420, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930601996, "dur":4972, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930606976, "dur":287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1670853930607265, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930613555, "dur":67821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1670853930681467, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930681535, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930688030, "dur":30285, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930718358, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930718418, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930718427, "dur":77358, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930795859, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930795913, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930795922, "dur":39120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930835084, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930835143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930835149, "dur":34641, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930869837, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930869883, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930869889, "dur":41086, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930911035, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853930911100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853930911109, "dur":118191, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853931029342, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853931029391, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853931029398, "dur":162283, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":12, "ts":1670853931191724, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1670853931191775, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1670853931191781, "dur":41571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/level1" }}
+,{ "pid":12345, "tid":12, "ts":1670853931233416, "dur":126932, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930601598, "dur":402, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930602000, "dur":4983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930606983, "dur":311, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1670853930607299, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930609401, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":13, "ts":1670853930611568, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1670853930611655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930611659, "dur":10197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":13, "ts":1670853930621915, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress.exe" }}
+,{ "pid":12345, "tid":13, "ts":1670853930621974, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930621981, "dur":60856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress.exe" }}
+,{ "pid":12345, "tid":13, "ts":1670853930682897, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930682970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930688101, "dur":107505, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930795670, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930795932, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930795937, "dur":66997, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930862980, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930863036, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930863045, "dur":44640, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930907737, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930907792, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930907797, "dur":39193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930947036, "dur":51033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930998080, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930998092, "dur":1424, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930999560, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853930999604, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853930999626, "dur":111700, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853931111371, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853931111424, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1670853931111432, "dur":89141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":13, "ts":1670853931200620, "dur":159726, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930601631, "dur":373, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930602005, "dur":4974, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930606979, "dur":308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1670853930607289, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930612260, "dur":2931, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":14, "ts":1670853930615238, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1670853930615329, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930615337, "dur":66339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":14, "ts":1670853930681716, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930681756, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930687936, "dur":104037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930792024, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930792074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930792080, "dur":124452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930916583, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930916638, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930916647, "dur":57329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930974016, "dur":2911, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930976934, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853930976945, "dur":2199, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853930979194, "dur":47723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853931026925, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853931026939, "dur":1534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853931028519, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853931028569, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1670853931028577, "dur":174811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":14, "ts":1670853931203434, "dur":156906, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930601667, "dur":341, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930602008, "dur":4965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930606974, "dur":252, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1670853930607230, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930615007, "dur":67385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":15, "ts":1670853930682443, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930682502, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930687887, "dur":104550, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930792481, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930792552, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930792557, "dur":52644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930845245, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930845295, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930845300, "dur":37287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930882629, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930882683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930882710, "dur":34011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930916764, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930916815, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930916820, "dur":45504, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930962367, "dur":5346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930967720, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930967732, "dur":1712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930969489, "dur":1327, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930970819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930970827, "dur":811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930971677, "dur":811, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930972514, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853930972523, "dur":992, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853930973555, "dur":59230, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853931032788, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853931032800, "dur":1145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853931033985, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853931034028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853931034034, "dur":80368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853931114443, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853931114490, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1670853931114495, "dur":191739, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":15, "ts":1670853931306273, "dur":54069, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930601689, "dur":321, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930602010, "dur":4960, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930606976, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1670853930607304, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930612950, "dur":40861, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1670853930653894, "dur":111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1670853930654008, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930681325, "dur":73490, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":16, "ts":1670853930754869, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930754909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930754916, "dur":130966, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930885926, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930885972, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930885982, "dur":40722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930926749, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930926798, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930926808, "dur":50984, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930977838, "dur":1605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930979446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853930979454, "dur":1224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853930980719, "dur":59604, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853931040331, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853931040345, "dur":1293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853931041683, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853931041736, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853931041743, "dur":35618, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853931077405, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853931077455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1670853931077463, "dur":121636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Ershin/Desktop/soundexpressbuild/SoundExpress_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":16, "ts":1670853931199145, "dur":161204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1670853931364380, "dur":1712, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1670853931383381, "dur": 627, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1670853931383039, "dur": 984, "ph": "X", "name": "Write chrome-trace events", "args": {} },
